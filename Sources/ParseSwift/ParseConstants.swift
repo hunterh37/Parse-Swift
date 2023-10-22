@@ -32,6 +32,8 @@ enum ParseConstants {
     static let deviceType = "android"
     #elseif os(Windows)
     static let deviceType = "windows"
+    #elseif os(xrOS)
+    static let deviceType = "ios"
     #endif
 }
 
